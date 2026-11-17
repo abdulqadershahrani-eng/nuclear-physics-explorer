@@ -417,14 +417,6 @@ gloss=st.sidebar.toggle('Glossy lighting',value=True)
 speed=st.sidebar.slider('Rotation speed',.2,2.0,.65,.05,disabled=not auto)
 st.sidebar.markdown('🔴 Protons  ·  🔵 Neutrons')
 st.sidebar.info('**3D controls**\n\nDrag = rotate manually\n\nMouse wheel = zoom\n\nAutomatic rotation resumes after interaction.')
-st.sidebar.markdown(
-    '<div style="margin-top:26px;padding:12px 10px;border-top:1px solid #526a89;'
-    'font-size:0.85rem;line-height:1.7;color:#c7d8ef">'
-    '<strong style="color:#f0f6ff">Contact</strong><br>'
-    '<a href="mailto:g202516670@kfupm.edu.sa" style="color:#9cc9ff;'
-    'text-decoration:underline;overflow-wrap:anywhere">g202516670@kfupm.edu.sa</a>'
-    '</div>', unsafe_allow_html=True
-)
 
 left,right=st.columns([1.55,1],gap='large')
 with left:
